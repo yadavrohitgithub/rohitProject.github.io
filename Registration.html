@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color:black">
+    <div class="modal-dialog text-center">
+        <div class="col-lg-12 min=section">
+            <div class="modal-content" style="background-color:cadetblue;margin-top:80px;">
+                <div class="col-12 user-img">
+                    <label for=""><h2>Registration Form</h2></label>
+                </div>
+                <form class="col-12">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group"> 
+                        <select name="country" id="country" class="col-lg-12 form-control" style="text-align:center;border-radius: 10px;border:1px solid lightgrey">
+                                <option value="">Select Country</option>
+                        </select>
+                    </div>
+                        <div class="form-group">
+                            <div class="row">
+                                    <div class="col-md-3">
+                                            <input type="text" id="code" class="form-control" placeholder="00">
+                                    </div>
+                                    <div class="col-md-8">
+                                            <input type="text" id="phone" class="form-control" placeholder="Phone Number" style="display:inline-block;">
+                                    </div>
+                                    <div class="col-md-1">    
+                                            <i class="" id="numberStatus" style="font-size:25px;color:green;display:inline-block;vertical-align:-5px;"></i>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                            <div class="col-md-11">
+                                <input type="text" id="email"  class="email col-md-12 form-control" placeholder="Email"  style="display:inline-block;">
+                            </div>
+                            <div class="col-md-1">    
+                                <i class="" id="status" style="font-size:25px;color:green;display:inline-block;vertical-align:-5px;"></i>
+                            </div> 
+                        </div>
+                        </div>
+                        <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-11">
+                                    <input type="password" class="password form-control col-md-12" placeholder="Password">
+                            </div> 
+                        </div>
+                        </div>
+                        <div class="form-group">
+  
+                                <center><button type="button" class="btn btn-md" style="background-color:blue;color:aliceblue;">Submit</button></center> 
+                        </div>  
+                    </div>                    
+                </form>
+
+            </div>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
